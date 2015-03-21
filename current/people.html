@@ -12,12 +12,33 @@
   bootstrap CSS twice
 
   This code is licenced under a GNU GPL v3 licence.
-
-  To-do: Create CSS instead of using style parameter
 -->
 <head>
   <link   href="http://dsg.teiste.gr/images/bootstrap/css/bootstrap.css"
           rel="stylesheet" type="text/css" />
+  <style>
+    .membersCurrent, .membersFormer, .colleagues{
+      padding:10px;
+      margin:-14px;
+      border-radius:10px;
+    }
+    .membersCurrent{
+      background-color: #D0DCEC;
+    }
+    .membersFormer{
+      background-color: #F4F5B9;
+    }
+    .colleagues{
+      background-color: #FFD6D6;
+    }
+    .typeTitle{
+      font-size:70px;
+      margin-top:20px;
+    }
+    .rowSpace{
+      padding-bottom:30px;
+    }
+  </style>
 </head>
 <body>
 <div class="row">
@@ -58,13 +79,13 @@
 </div>
 
 <!-- Current Members -->
-<div class="row" style="padding-bottom:30px;">
-  <div style="font-size:70px; margin-top:20px;" class="text-center">
+<div class="row rowSpace">
+  <div class="typeTitle text-center">
     <strong>Current Members</strong>
   </div>
   <!-- Dimitropoulos -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img  class="img-circle" src="images/banners/people/user.png"
             alt="dimitropoulos" />
       <h4 class="text-center"><strong>Anargiros Dimitropoulos</strong></h4>
@@ -81,7 +102,7 @@
 
   <!-- Dimos -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img class="img-circle" src="images/banners/people/user.png" alt="dimos"/>
       <h4 class="text-center"><strong>Charis<br/>Dimos</strong></h4>
       <h5 class="text-center"><strong>Student</strong></h5>
@@ -97,7 +118,7 @@
 
   <!-- Gkotzamanidis -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img  class="img-circle" src="images/banners/people/gkotzamanidis.jpg"
             alt="gkotzamanidis"/>
       <h4 class="text-center"><strong>Kostas Gkotzamanidis</strong></h4>
@@ -118,7 +139,7 @@
 
   <!-- Hoxha -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img class="img-circle" src="images/banners/people/hohxa.jpg" alt="hohxa"/>
       <h4 class="text-center"><strong>Mybareq<br/>Hoxha</strong></h4>
       <h5 class="text-center"><strong>Student</strong></h5>
@@ -145,7 +166,7 @@
 <div class="row"style="padding-bottom:30px;">
   <!-- Karabelas -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img class="img-circle" src="images/banners/people/user.png" alt="karabelas"/>
       <h4 class="text-center"><strong>George Karabelas</strong></h4>
       <h5 class="text-center"><strong>Student</strong></h5>
@@ -182,7 +203,7 @@
 
   <!-- Kounas -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img  class="img-circle" src="images/banners/people/user.png"
             alt="kounas"/>
       <h4 class="text-center"><strong>Theodore Kounas</strong></h4>
@@ -206,7 +227,7 @@
 
   <!-- Biboudi -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img  class="img-circle" src="images/banners/people/mpimpoudi.jpg"
             alt="mpimpoudi"/>
       <h4 class="text-center"><strong>Georgia Biboudi</strong></h4>
@@ -224,7 +245,7 @@
 
   <!-- Prantalos -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img  class="img-circle" src="images/banners/people/prantalos.jpg"
             alt="prantalos" />
       <h4 class="text-center"><strong>John Prantalos</strong></h4>
@@ -265,10 +286,10 @@
 </div><!-- /Row2 -->
 
 <!-- Row3 -->
-<div class="row" style="padding-bottom:30px;">
+<div class="row rowSpace">
   <!-- Sofianos -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img  class="img-circle" src="images/banners/people/alex_sof.png"
             alt="sofianos"/>
       <h4 class="text-center"><strong>Alexandros Sofianos</strong></h4>
@@ -286,7 +307,7 @@
 
   <!-- Tiftikoglou -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img class="img-circle" src="images/banners/people/tiftikoglou.jpg"
             alt="tiftikoglou" />
       <h4 class="text-center"><strong>Polykarpos Tiftikoglou</strong></h4>
@@ -327,7 +348,7 @@
 
   <!-- Vasileiadis -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img  class="img-circle" src="images/banners/people/user.png"
             alt="vasileiadis" />
       <h4 class="text-center"><strong>Konstadinos Vasileiadis</strong></h4>
@@ -343,7 +364,7 @@
 
   <!-- Vassis -->
   <div class="col-md-3">
-    <div style="background-color: #D0DCEC;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersCurrent">
       <img  class="img-circle" src="images/banners/people/user.png"
             alt="vassis"/>
       <h4 class="text-center"><strong>Christos<br/>Vassis</strong></h4>
@@ -361,13 +382,13 @@
 </div><!-- /Row3 -->
 
 <!-- Former Members -->
-<div class="row" style="padding-bottom:30px;">
-  <div style="font-size:70px; margin-top:20px;" class="text-center">
+<div class="row rowSpace">
+  <div class="typeTitle text-center">
     <strong>Former Members</strong>
   </div>
   <!-- Barbakos -->
   <div class="col-md-4">
-    <div style="background-color: #F4F5B9;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersFormer">
       <img  class="img-circle" src="images/banners/people/barbakos.jpg"
             alt="barbakos" />
       <h4 class="text-center"><strong>Dimitris Barbakos</strong></h4>
@@ -398,7 +419,7 @@
 
   <!-- Danasis -->
   <div class="col-md-4">
-    <div style="background-color: #F4F5B9;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersFormer">
       <img  class="img-circle" src="images/banners/people/user.png"
             alt="danasis" />
       <h4 class="text-center"><strong>Aris Danasis</strong></h4>
@@ -414,7 +435,7 @@
 
   <!-- Zouganelis -->
   <div class="col-md-4">
-    <div style="background-color: #F4F5B9;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersFormer">
       <img  class="img-circle" src="images/banners/people/user.png"
             alt="zouganelis"/>
       <h4 class="text-center"><strong>Dimitris Zouganelis</strong></h4>
@@ -430,10 +451,10 @@
 </div><!-- /Row1 -->
 
 <!-- Row2 -->
-<div class="row" style="padding-bottom:30px;">
+<div class="row rowSpace">
   <!-- Kokkotos -->
   <div class="col-md-4">
-    <div style="background-color: #F4F5B9;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersFormer">
       <img  class="img-circle" src="images/banners/people/user.png"
             alt="kokkotos" />
       <h4 class="text-center"><strong>Giannis Kokkotos</strong></h4>
@@ -448,7 +469,7 @@
 
   <!-- Xatzis -->
   <div class="col-md-4">
-    <div style="background-color: #F4F5B9;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="membersFormer">
       <img  class="img-circle" src="images/banners/people/user.png"
             alt="xatzis" />
       <h4 class="text-center"><strong>Giorgos Xatzis</strong></h4>
@@ -463,14 +484,14 @@
 </div><!-- /Row2 -->
 
 <!-- Colleagues -->
-<div class="row" style="padding-bottom:30px;">
-  <div style="font-size:70px; margin-top:20px;" class="text-center">
+<div class="row rowSpace">
+  <div class="typeTitle text-center">
     <strong>Colleagues</strong>
   </div>
 
   <!-- Dinenis -->
   <div class="col-md-3">
-    <div style="background-color: #FFD6D6;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="colleagues">
       <img  class="img-circle" src="images/banners/people/dinenis.jpg"
             alt="dinenis" />
       <h4 class="text-center"><strong>Phillip<br />Dinenis</strong></h4>
@@ -495,7 +516,7 @@
 
   <!-- Konstantoulakis -->
   <div class="col-md-3">
-    <div style="background-color: #FFD6D6;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="colleagues">
       <img  class="img-circle" src="images/banners/people/user.png"
             alt="konstantoulakis" />
       <h4 class="text-center">
@@ -517,7 +538,7 @@
 
   <!-- Lampiris -->
   <div class="col-md-3">
-    <div style="background-color: #FFD6D6;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="colleagues">
       <img  class="img-circle" src="images/banners/people/user.png"
             alt="lampiris" />
       <h4 class="text-center"><strong>Nikos Lampiris<br/>&nbsp;</strong></h4>
@@ -535,7 +556,7 @@
 
   <!-- Tsourlidakis -->
   <div class="col-md-3">
-    <div style="background-color: #FFD6D6;padding:10px; margin:-14px; border-radius:10px;">
+    <div class="colleagues">
       <img  class="img-circle" src="images/banners/people/tsourlidakis.jpg"
             alt="tsourlidakis"/>
       <h4 class="text-center"><strong>Stavros Tsourlidakis</strong></h4>
